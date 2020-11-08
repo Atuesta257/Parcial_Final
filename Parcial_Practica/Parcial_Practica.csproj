@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\Encantador.png" />
+    <None Remove="Pages\Escueladedestruccion.png" />
+    <None Remove="Pages\Guerrero.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pages\Encantador.png" />
+    <Resource Include="Pages\Escueladedestruccion.png" />
+    <Resource Include="Pages\Guerrero.png" />
+  </ItemGroup>
+
+</Project>

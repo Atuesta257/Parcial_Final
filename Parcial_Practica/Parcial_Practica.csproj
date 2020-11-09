@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\1997498dd4a3ddef5add117d3ee63ee7-calavera-de-ilustraci--n-de-halloween-by-vexels.png" />
+    <None Remove="Pages\Alquimia.png" />
     <None Remove="Pages\Encantador.png" />
     <None Remove="Pages\Escueladedestruccion.png" />
     <None Remove="Pages\Guerrero.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Pages\1997498dd4a3ddef5add117d3ee63ee7-calavera-de-ilustraci--n-de-halloween-by-vexels.png" />
+    <Resource Include="Pages\Alquimia.png" />
     <Resource Include="Pages\Encantador.png" />
     <Resource Include="Pages\Escueladedestruccion.png" />
     <Resource Include="Pages\Guerrero.png" />

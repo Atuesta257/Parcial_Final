@@ -16,18 +16,26 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Label Content="First Fantasy" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="78" Width="180" FontFamily="Gabriola" FontSize="40" FontWeight="Bold" Foreground="#FF33306A" />
-        <Image x:Name="imgClase" HorizontalAlignment="Left" Height="186" Margin="477,0,0,0" VerticalAlignment="Center" Width="148" Source="/Pages/Guerrero.png" Stretch="Fill"/>
+        <Image x:Name="imgClase" HorizontalAlignment="Left" Height="186" Margin="244,217,0,0" VerticalAlignment="Top" Width="148" Source="/Pages/Guerrero.png" Stretch="Fill"/>
         <Label Content="Seleccion de personaje" HorizontalAlignment="Left" Margin="26,88,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Gabriola"/>
         <Button x:Name="btnLeft" Content="◄" HorizontalAlignment="Left" Margin="30,178,0,0" VerticalAlignment="Top" Click="btnLeft_Click" Height="23" Width="20" FontSize="16"/>
         <Button x:Name="btnRight" Content="►" HorizontalAlignment="Left" Margin="150,178,0,0" VerticalAlignment="Top" Click="btnRight_Click" Height="23" Width="21" FontSize="16"/>
         <Label x:Name="txtPersonaje" Content="Guerrero" HorizontalAlignment="Left" Margin="71,175,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnMenu" Content="Menú" HorizontalAlignment="Left" Margin="30,360,0,0" VerticalAlignment="Top" Click="btnMenu_Click"/>
-        <Image x:Name="imgClase1" HorizontalAlignment="Left" Height="186" Margin="477,0,0,0" VerticalAlignment="Center" Width="148" Source="/Pages/Escueladedestruccion.png" Visibility="Hidden" Stretch="Fill"/>
-        <Image x:Name="imgClase2" HorizontalAlignment="Left" Height="186" Margin="477,0,0,0" VerticalAlignment="Center" Width="148" Source="/Pages/Encantador.png" Visibility="Hidden" Stretch="Fill"/>
+        <Image x:Name="imgClase1" HorizontalAlignment="Left" Height="186" Margin="244,217,0,0" VerticalAlignment="Center" Width="148" Source="/Pages/Escueladedestruccion.png" Visibility="Hidden" Stretch="Fill"/>
+        <Image x:Name="imgClase2" HorizontalAlignment="Left" Height="186" Margin="244,217,0,0" VerticalAlignment="Center" Width="148" Source="/Pages/Encantador.png" Visibility="Hidden" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Left" Height="393" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
         <TextBlock x:Name="txtDescripcion" HorizontalAlignment="Left" Margin="236,101,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="89" Width="164"/>
         <Label Content="Descripción:" HorizontalAlignment="Left" Margin="236,75,0,0" VerticalAlignment="Top"/>
         <Rectangle HorizontalAlignment="Left" Height="115" Margin="236,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="164"/>
+        <ProgressBar x:Name="EnemyLife" HorizontalAlignment="Left" Height="10" Margin="512,122,0,0" VerticalAlignment="Top" Width="100" Value="500" Maximum="500"/>
+        <Button x:Name="btnAtacar" Content="Atacar" HorizontalAlignment="Left" Margin="585,350,0,0" VerticalAlignment="Top" Click="btnAtacar_Click" />
+        <Image HorizontalAlignment="Left" Height="122" Margin="501,175,0,0" VerticalAlignment="Top" Width="127" Source="/Pages/1997498dd4a3ddef5add117d3ee63ee7-calavera-de-ilustraci--n-de-halloween-by-vexels.png"/>
+        <ProgressBar x:Name="Life" HorizontalAlignment="Left" Height="10" Margin="268,215,0,0" VerticalAlignment="Top" Width="100" Value="101"/>
+        <Button x:Name="btnLeft1" Content="◄" HorizontalAlignment="Left" Margin="30,236,0,0" VerticalAlignment="Top" Height="23" Width="20" FontSize="16" Click="btnLeft1_Click"/>
+        <Button x:Name="btnRight1" Content="►" HorizontalAlignment="Left" Margin="150,236,0,0" VerticalAlignment="Top" Height="23" Width="20" FontSize="16" Click="btnRight1_Click"/>
+        <Label x:Name="txtArma" Content="Hacha" HorizontalAlignment="Left" Margin="78,236,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgPocion" Visibility="Hidden" HorizontalAlignment="Center" Height="64" Margin="0,334,0,0" VerticalAlignment="Top" Width="66" Source="/Pages/Alquimia.png"/>
 
     </Grid>
 </Page>

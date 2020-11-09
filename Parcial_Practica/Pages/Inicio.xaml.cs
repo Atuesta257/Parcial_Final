@@ -31,17 +31,9 @@ namespace Parcial_Practica.Pages
         {
             NavigationService.Navigate(new Menú());
 
-            List<IDescribable> objectList = new List<IDescribable>();
-            objectList.Add(new Axe());
-            objectList.Add(new Potion());
-            objectList.Add(new Wizard { Level = 10 });
+
 
             IDescribable i = new Knight();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Menú());
         }
     }
 }

@@ -5,11 +5,8 @@ using System.Text;
 
 namespace Parcial_Practica.Classes.Equipment
 {
-    public class Potion : IDescribable
+    public class Potion
     {
-        public string ShowInformation()
-        {
-            return "This is a strange potion";
-        }
+
     }
 }

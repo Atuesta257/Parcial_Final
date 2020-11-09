@@ -8,7 +8,7 @@ namespace Parcial_Practica.Classes.Equipment
     {
        public Sword()
         {
-            Damage = 50;
+            
         }
             
     }

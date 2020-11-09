@@ -7,16 +7,11 @@ namespace Parcial_Practica.Classes.Player
     public class Knight : Character
     {
 
-        public override String Taunt()
+        public Knight()
         {
-            return "By my Lord";
+            Health = 10000;
+            Power = 10;
+            Level = 1;
         }
-
-
-        public override String ShowCharacter()
-        {
-            return "Remember my name " + Name.ToUpper() + " and My Power " + Level;
-        }
-
     }
 }

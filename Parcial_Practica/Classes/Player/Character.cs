@@ -9,18 +9,15 @@ namespace Parcial_Practica.Classes.Player
     {
         private String name;
         private int level;
-        private int experience;
+        
+        private int health;
+        private int power;
 
         public string Name { get => name; set => name = value; }
         public int Level { get => level; set => level = value; }
-        public int Experience { get => experience; set => experience = value; }
+        public int Health { get => health; set => health = value; }
+        public int Power { get => power; set => power = value; }
 
-        public abstract String Taunt();
-
-        public virtual String ShowCharacter()
-        {
-            return "Name: " + name + " Level " + level + " XP: " + experience;
-        }
 
         public string ShowInformation()
         {

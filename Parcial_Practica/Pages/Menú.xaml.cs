@@ -67,5 +67,56 @@ namespace Parcial_Practica.Pages
                 txtDescripcion.Text = "Habíl en el uso de magias y capáz de atacar cuerpo a cuero, es el guerrero definitivo";
             }
         }
+
+
+        private void btnRight1_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtArma.Content == "Espada")
+            {
+                txtArma.Content = "Hacha";
+                imgPocion.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                txtArma.Content = "Poción";
+                imgPocion.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void btnLeft1_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtArma.Content == "Poción")
+            {
+                txtArma.Content = "Hacha";
+                imgPocion.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                txtArma.Content = "Espada";
+                imgPocion.Visibility = Visibility.Hidden;
+
+            }
+        }
+
+        private void btnAtacar_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtArma.Content == "Poción")
+            {
+                EnemyLife.Value = EnemyLife.Value - 50;
+            }
+            else
+            {
+                EnemyLife.Value = EnemyLife.Value - 20;
+            }
+           
+
+            if (EnemyLife.Value <= 0)
+            {
+                MessageBox.Show("Enemigo Eliminado");
+
+            }
+
+            
+        }
     }
 }

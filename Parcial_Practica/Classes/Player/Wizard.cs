@@ -11,15 +11,12 @@ namespace Parcial_Practica.Classes.Player
 
         public int Mp { get => mp; set => mp = value; }
 
-        public override String Taunt()
+        public Wizard()
         {
-            return "By the Magic";
+            Health = 5000;
+            Power = 30;
+            Level = 1;
         }
 
-        public string CastSpell()
-        {
-
-            return "KAAAA NBUM";
-        }
     }
 }
